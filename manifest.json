@@ -1,0 +1,20 @@
+{
+  "name": "Bytedance Developer Tab AutoRename",
+  "description": "Bytedance Developer Tab AutoRename",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["storage","tabs","scripting"],
+  "host_permissions": ["*://*/*"],
+  "action": {
+    "default_icon": {
+      "128": "/images/download.png"
+    }
+  },
+  "icons": {
+    "128": "/images/download.png"
+  }
+}
